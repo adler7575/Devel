@@ -1,10 +1,11 @@
+using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using RazorPagesMovie.Models;
-using System;
-namespace RazorPagesMovie
+using MvcMovie.Models;
+
+namespace MvcMovie
 {
     public class Program
     {
